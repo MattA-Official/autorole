@@ -1,0 +1,27 @@
+{
+  "name": "autorole",
+  "version": "0.1.0",
+  "description": "💬 A highly configurable autorole bot for Discord",
+  "main": "index.js",
+  "repository": "https://github.com/matta-official/autorole.git",
+  "author": "Matthew Adcock <matthew.n.adcock@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "eslint . --fix",
+    "pretty": "prettier --write ."
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "nodemon": "^2.0.12",
+    "prettier": "2.3.2"
+  },
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0"
+  }
+}
