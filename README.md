@@ -3,8 +3,10 @@
 A highly configurable autorole bot for Discord. Built using Discord.js, and runs in Node. Perfect for servers of all sizes that need a lightweight role management system.
 
 ## Features
+> features in *italics* are not yet implemented
 
-- Coming Soon™
+- Role selection buttons
+- Role selection menus
 
 ## Contributing
 
